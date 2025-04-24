@@ -1,6 +1,7 @@
 import { _decorator, Component, director, Node } from 'cc';
-import { BundlesName } from '../Scripts/core/confg/GF_Constant';
+import { BundlesName } from '../Scripts/core/utilconfg/GF_Constant';
 import engine from '../Scripts/core/Engine';
+import { ConfigManager } from '../Scripts/core/utilconfg/ConfigManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('LoadScene')
@@ -26,13 +27,11 @@ export class LoadScene extends Component {
                 }
             })
         }
-
     }
 
     /**数据初始化 */
     private dataInit() {
-
-        // ConfigManager.ins.initConig();
+        ConfigManager.ins.initConig();
         if (engine.cc_debug) { return };
     }
 

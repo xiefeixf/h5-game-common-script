@@ -1,7 +1,7 @@
 import { _decorator, Component, JsonAsset, Node } from 'cc';
 import Singleton from '../util/Singleton';
 import engine from '../Engine';
-import { GameConfig } from '../confg/GF_Constant';
+import { GameConfig } from '../utilconfg/GF_Constant';
 const { ccclass, property } = _decorator;
 
 @ccclass('DataManager')

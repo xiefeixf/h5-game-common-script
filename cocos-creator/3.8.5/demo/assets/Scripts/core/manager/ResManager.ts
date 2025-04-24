@@ -1,7 +1,7 @@
 import { _decorator, Asset, assetManager, AssetManager, resources } from 'cc';
 import Singleton from '../util/Singleton';
 import engine from '../Engine';
-import { BundlesName } from '../confg/GF_Constant';
+import { BundlesName } from '../utilconfg/GF_Constant';
 const { ccclass } = _decorator;
 
 @ccclass('ResManager')

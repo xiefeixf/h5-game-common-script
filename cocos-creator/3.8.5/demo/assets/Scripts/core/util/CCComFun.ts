@@ -1,5 +1,5 @@
 import { Sprite, SpriteFrame, view } from "cc";
-import { GF_ResUtil } from "db://assets/Scripts/core/confg/GF_ResUtil";
+import { GF_ResUtil } from "../utilconfg/GF_ResUtil";
 import engine from "db://assets/Scripts/core/Engine";
 
 

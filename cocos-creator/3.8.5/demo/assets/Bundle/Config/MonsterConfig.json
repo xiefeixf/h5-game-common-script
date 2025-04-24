@@ -1,0 +1,50 @@
+{
+  "101": {
+    "id": 101,
+    "Column1": "小怪",
+    "type": 0,
+    "Prefabs": "monsterUI",
+    "model": "sbody_131011",
+    "scale": 0.25
+  },
+  "102": {
+    "id": 102,
+    "Column1": "宝箱",
+    "type": 0,
+    "Prefabs": "boxUI",
+    "model": 0,
+    "scale": 0
+  },
+  "103": {
+    "id": 103,
+    "Column1": "boss1",
+    "type": 0,
+    "Prefabs": "bossUI",
+    "model": "sbody_134051",
+    "scale": 0.4
+  },
+  "104": {
+    "id": 104,
+    "Column1": "boss2",
+    "type": 0,
+    "Prefabs": "bossUI",
+    "model": "sbody_525111",
+    "scale": 0.5
+  },
+  "105": {
+    "id": 105,
+    "Column1": "钥匙",
+    "type": 0,
+    "Prefabs": "keyUI",
+    "model": 0,
+    "scale": 0
+  },
+  "106": {
+    "id": 106,
+    "Column1": "门",
+    "type": 0,
+    "Prefabs": "doorUI",
+    "model": 0,
+    "scale": 0
+  }
+}

@@ -7,7 +7,7 @@ import { LayerBase } from "./LayerBase";
 import { gui_setting } from "./Defines";
 import { BlockInputEvents, Node, Prefab, Vec3, find, instantiate, v3, view } from "cc";
 import engine from "../Engine";
-import { PopLayerType } from "../confg/GF_Constant";
+import { PopLayerType } from "../utilconfg/GF_Constant";
 // import { PopTips } from "../../UIModular/Tips/PopTips";
 export class gui {
     /**

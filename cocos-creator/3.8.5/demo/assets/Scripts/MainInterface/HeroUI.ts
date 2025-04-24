@@ -3,7 +3,7 @@ import { BasicEnemyUI } from './BasicEnemyUI';
 import engine from '../core/Engine';
 import { UIBaseView } from '../core/ui/UIBaseView';
 import { gui } from '../core/gui/GUI';
-import { UILayerType } from '../core/confg/GF_Constant';
+import { UILayerType } from '../core/utilconfg/GF_Constant';
 const { ccclass, property } = _decorator;
 
 export const enum item_type {

@@ -1,7 +1,7 @@
 import { _decorator, AudioClip, AudioSource, Component, log, Node } from 'cc';
 import Singleton from '../util/Singleton';
 import engine from '../Engine';
-import { GF_DynamicData } from '../confg/GF_DynamicData';
+import { GF_DynamicData } from '../utilconfg/GF_DynamicData';
 const { ccclass, property } = _decorator;
 
 @ccclass('AudioManager')
